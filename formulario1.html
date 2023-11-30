@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    form{
+        margin: 300px;
+        background-color: brown;
+        border-radius: 100px;
+        padding: 50px;
+        border: 10px solid #888888;
+        text-align: center;
+        font-size: xx-large;
+        font-style: italic;
+    }
+</style>
+<body>
+    <div>
+        <form action="">
+            <h1>Cadastro</h1>
+            <hr>
+            <label for="name">Nome Completo</label><br>
+            <input type="text" id="name"><br>
+            <label for="CPF">CPF</label><br>
+            <input type="number" id="CPF"><br>
+            <label for="estado"> Estado </label><br>
+            <select name="estado" id="estado">
+                <option value="CE">CE</option>
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+            </select><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email"><br>
+            <label for="genero">Genero</label><br>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="genero">
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="feminino" name="genero"><br>
+            <input type="submit" value="Tudo Bem?">
+            
+        </form>
+    </div>
+</body>
+</html>
